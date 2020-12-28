@@ -11,7 +11,7 @@ module.exports = merge(common, {
   mode: "production",
   output: {
     filename: '[name].[contenthash].js',
-    path: resolve(__dirname, '../build')
+    path: resolve(__dirname, '../docs')
   },
   plugins: [
     new CleanWebpackPlugin({
